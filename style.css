@@ -1,5 +1,7 @@
 body {
     background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 .font-name {
@@ -7,5 +9,9 @@ body {
 }
 
 .font-description {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.semantic-style {
+    color: #808080;
 }
