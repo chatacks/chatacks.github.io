@@ -16,8 +16,7 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",
     "redux": "^4.2.1",
-    "redux-thunk": "^2.4.2",
-    "styled-components": "^6.0.7"
+    "redux-thunk": "^2.4.2"
   },
   "devDependencies": {
     "@trybe/eslint-config-frontend": "^1.11.4",
