@@ -1,6 +1,5 @@
 img {
-  
-  width: 100%;
+  width: 60px;
   color: var(--title-color-dark);
 }
 
@@ -64,7 +63,7 @@ img {
 
 .nav-item a {
   position: relative;
-  padding-bottom: 0.75rem;
+  padding: 2rem 0 0.50rem 0;
 }
 
 .nav-item a::after {
