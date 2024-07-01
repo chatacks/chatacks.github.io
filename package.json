@@ -7,7 +7,8 @@
     "build": "tsc && vite build",
     "dev": "vite --open",
     "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
@@ -23,6 +24,7 @@
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react-swc": "^3.3.2",
+    "gh-pages": "^6.1.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
