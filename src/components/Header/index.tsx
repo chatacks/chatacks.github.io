@@ -19,14 +19,16 @@ function Header() {
 
         <div className={ toggle ? 'nav-menu show-menu' : 'nav-menu' }>
           <ul className="nav-list grid">
-            <NavItem href="#home" iconClass="uil uil-estate nav-icon">Home</NavItem>
-            <NavItem href="#about" iconClass="uil uil-user nav-icon">About</NavItem>
-            <NavItem href="#skills" iconClass="uil uil-file-alt nav-icon">Skills</NavItem>
+            <NavItem href="#home" iconClass="uil uil-estate nav-icon">Ínicio</NavItem>
+            <NavItem href="#about" iconClass="uil uil-user nav-icon">Sobre</NavItem>
+            <NavItem href="#skills" iconClass="uil uil-file-alt nav-icon">
+              Habilidades
+            </NavItem>
             <NavItem href="#portfolio" iconClass="uil uil-scenery nav-icon">
               Portfolio
             </NavItem>
             <NavItem href="#contact" iconClass="uil uil-message nav-icon">
-              Contact
+              Contato
             </NavItem>
           </ul>
           <button onClick={ handleToggle } aria-label="Fechar menu">
