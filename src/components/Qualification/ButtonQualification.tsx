@@ -1,11 +1,10 @@
-// Componente ButtonQualification
-interface ButtonQualificationProps {
+type ButtonQualificationProps = {
   toggle: number;
   handleToggle: (value: number) => void;
   toggleValue: number;
   iconClass: string;
   buttonText: string;
-}
+};
 
 function ButtonQualification({ toggle,
   handleToggle,
