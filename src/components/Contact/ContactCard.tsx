@@ -2,20 +2,30 @@ type ContactCardProps = {
   textTitle: string;
   spanText: string;
   href: string;
+  targetBlank?: string
   iconClass: string;
 };
 
-function ContactCard({ textTitle, spanText, href, iconClass }: ContactCardProps) {
+function ContactCard({ textTitle,
+  spanText,
+  href,
+  targetBlank = '',
+  iconClass }: ContactCardProps) {
   return (
     <div className="contact-card">
-      <i className="bx bx contact-card-icon" />
+      <i className={ `bx ${iconClass} contact-card-icon` } />
 
       <h3 className="contact-card-title">{textTitle}</h3>
       <span className="contact-card-data">{spanText}</span>
 
-      <a href={ href } className="contact-button">
+      <a
+        href={ href }
+        target={ targetBlank }
+        className="contact-button"
+        rel="noopener noreferrer"
+      >
         Escrever-me
-        <i className={ `bx ${iconClass} contact-button-icon` } />
+        <i className="bx bx-right-arrow-alt contact-button-icon" />
       </a>
     </div>
   );
