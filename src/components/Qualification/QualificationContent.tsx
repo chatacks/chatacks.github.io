@@ -26,20 +26,20 @@ function QualificationContent({ toggle }: QualificationContentProps) {
           <div> </div>
           <LineAndRounder />
           <EducationOrExperience
-            title="Ensino Médio"
-            subtitle="Escola Estadual Visconde de Cairu"
-            period="2013 - 2016"
-          />
-        </div>
-
-        <div className="qualification-data">
-          <EducationOrExperience
             title="Formação Iniciante em Programação T6 - ONE"
             subtitle="Alura/Oracle"
             period="01/2024 - 06/2024"
           />
+        </div>
+        <div className="qualification-data">
+          <EducationOrExperience
+            title="Ensino Médio"
+            subtitle="Escola Estadual Visconde de Cairu"
+            period="2013 - 2016"
+          />
           <LineAndRounder />
         </div>
+
       </div>
 
       <div

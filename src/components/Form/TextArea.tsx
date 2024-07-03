@@ -3,11 +3,21 @@ type TextAreaProps = {
   name: string;
   id: string;
   placeholder?: string;
+  value: string;
+  onChange: (event:
+  React.ChangeEvent<HTMLInputElement
+  | HTMLTextAreaElement>) => void;
 };
 
-function TextArea({ labelText, id, name, placeholder = '' }: TextAreaProps) {
+function TextArea({
+  labelText,
+  id,
+  name,
+  placeholder = '',
+  value,
+  onChange }: TextAreaProps) {
   return (
-    <div className="contact-form-div">
+    <div className="contact-form-div contact-form-area">
       <label htmlFor={ id } className="contact-form-tag">{labelText}</label>
       <textarea
         className="contact-form-input"
@@ -16,6 +26,8 @@ function TextArea({ labelText, id, name, placeholder = '' }: TextAreaProps) {
         name={ name }
         id={ id }
         placeholder={ placeholder }
+        value={ value }
+        onChange={ onChange }
       />
     </div>
   );
