@@ -3,7 +3,7 @@ import ContactCard from './ContactCard';
 function ContactContent() {
   return (
     <div className="contact-content">
-      <h3 className="contact-title">Falar comigo</h3>
+      <h3 className="contact-title">Fale Comigo</h3>
       <div className="contact-info">
         <ContactCard
           textTitle="Email"
