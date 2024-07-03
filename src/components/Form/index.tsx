@@ -38,8 +38,6 @@ function Form() {
     return regex.test(email);
   }
 
-  const valid = emailValidate(formData.email);
-
   const handleChangeForm = (event:
   React.ChangeEvent<HTMLInputElement
   | HTMLTextAreaElement>) => {
@@ -52,17 +50,21 @@ function Form() {
 
   const handleSubmitForm = (event:React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const valid = emailValidate(formData.email);
     if (valid) {
       sendEmail();
       setFormData({
         name: '',
         email: '',
-        project: '' });
-    }
-    setShowError(true);
-    setTimeout(() => {
+        project: '',
+      });
       setShowError(false);
-    }, 2000);
+    } else {
+      setShowError(true);
+      setTimeout(() => {
+        setShowError(false);
+      }, 2000);
+    }
   };
 
   return (
