@@ -3,7 +3,7 @@ import CV from '../../assets/currículo-Thyago-Chatack.pdf';
 import AboutDescription from './AboutDescription';
 import DownloadCvButton from './DownloadCvButton';
 import Infos from './Infos';
-import chatackImage from '../../assets/thyago_chatack.jpeg';
+import chatackImage from '../../assets/about_thyago_chatack.png';
 
 function About() {
   return (

@@ -17,7 +17,7 @@ function QualificationContent({ toggle }: QualificationContentProps) {
           <EducationOrExperience
             title="Desenvolvimento Web FullStack"
             subtitle="Escola de Tecnologia - Trybe"
-            period="2023 - 2024"
+            period="06/2023 - 07/2024"
           />
           <LineAndRounder />
         </div>
@@ -26,16 +26,16 @@ function QualificationContent({ toggle }: QualificationContentProps) {
           <div> </div>
           <LineAndRounder />
           <EducationOrExperience
-            title="Formação Iniciante em Programação T6 - ONE"
+            title="Formação React.js T6 - ONE"
             subtitle="Alura/Oracle"
-            period="01/2024 - 06/2024"
+            period="03/2024 - 07/2024"
           />
         </div>
         <div className="qualification-data">
           <EducationOrExperience
-            title="Ensino Médio"
-            subtitle="Escola Estadual Visconde de Cairu"
-            period="2013 - 2016"
+            title="Formação Iniciante em Programação T6 - ONE"
+            subtitle="Alura/Oracle"
+            period="01/2024 - 06/2024"
           />
           <LineAndRounder />
         </div>

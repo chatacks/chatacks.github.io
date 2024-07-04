@@ -24,8 +24,8 @@ function Header() {
             <NavItem href="#skills" iconClass="uil uil-file-alt nav-icon">
               Habilidades
             </NavItem>
-            <NavItem href="#portfolio" iconClass="uil uil-scenery nav-icon">
-              Portfolio
+            <NavItem href="#projects" iconClass="uil uil-scenery nav-icon">
+              Projetos
             </NavItem>
             <NavItem href="#contact" iconClass="uil uil-message nav-icon">
               Contato
