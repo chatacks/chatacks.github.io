@@ -1,27 +1,27 @@
-function Social() {
+function FooterSocial() {
   return (
-    <div className="home-social">
+    <div className="footer-social">
       <a
         href="https://www.linkedin.com/in/thyago-chatack/"
-        className="home-social-icon"
+        className="footer-social-link"
         target="_blank"
         rel="noreferrer"
         aria-label="Linkedin"
       >
-        <i className="uil uil-linkedin-alt" />
+        <i className="bx bxl-linkedin-square" />
       </a>
 
       <a
         href="https://github.com/chatacks"
-        className="home-social-icon"
+        className="footer-social-link"
         target="_blank"
         rel="noreferrer"
         aria-label="Github"
       >
-        <i className="uil uil-github-alt" />
+        <i className="bx bxl-github" />
       </a>
     </div>
   );
 }
 
-export default Social;
+export default FooterSocial;
