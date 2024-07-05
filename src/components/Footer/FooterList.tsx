@@ -2,10 +2,10 @@ function FooterList() {
   return (
     <ul className="footer-list">
       <li>
-        <a href="#about" className="footer-link">About</a>
+        <a href="#about" className="footer-link">Sobre</a>
       </li>
       <li>
-        <a href="#projects" className="footer-link">Projects</a>
+        <a href="#projects" className="footer-link">Projetos</a>
       </li>
     </ul>
   );
