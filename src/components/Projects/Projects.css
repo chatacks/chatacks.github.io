@@ -1,0 +1,81 @@
+.portfolio-container {
+  overflow: initial;
+  max-width: 500px;
+}
+
+
+.portfolio-content {
+  margin: 0 1.5rem;
+}
+
+.portfolio-img {
+  width: 350px;
+  object-fit: cover;
+  justify-self: center;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.portfolio-icons {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.portfolio-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio-description {
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.25rem;
+  padding: 0.5rem 1.5rem;
+}
+
+
+.portfolio-button-icon {
+  font-size: 1rem;
+  margin: 0 0 0 5px;
+  transition: 0.3s;
+}
+
+.portfolio-button:hover .portfolio-button-icon {
+  transform: translate(0.25rem);
+}
+
+.portfolio-social-link {
+  background-color: var(--title-color);
+  color: var(--container-color);
+  font-size: 1.15rem;
+  padding: 0.25rem;
+  border-radius: 0.4rem; 
+  display: inline-flex;
+  transition: 0.3s;
+}
+
+.portfolio-social-link:hover {
+  background-color: var(--title-color-dark);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  margin-bottom: 10.5rem;
+  font-size: 20px;
+  color: var(--title-color-dark);
+}
+
+.swiper-button-prev::after {
+  margin-right: 2rem;
+}
+
+.swiper-button-next::after {
+  margin-left: 2rem;
+}
+

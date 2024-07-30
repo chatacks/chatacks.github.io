@@ -15,7 +15,7 @@ function Qualification() {
       <h2 className="section-title">
         Qualificações
       </h2>
-      <span className="section-subtitle">Minha jornada pessoal</span>
+      <span className="section-subtitle">Minha Jornada Pessoal</span>
 
       <div className="qualification-container container">
         <QualificationTabs toggle={ toggle } handleToggle={ handleToggle } />
