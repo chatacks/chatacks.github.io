@@ -1,5 +1,5 @@
 import './About.css';
-import CV from '../../assets/currículo-Thyago-Chatack.pdf';
+import CV from '../../assets/ThyagoChatack-Currículo.pdf';
 import AboutDescription from './AboutDescription';
 import DownloadCvButton from './DownloadCvButton';
 import Infos from './Infos';
