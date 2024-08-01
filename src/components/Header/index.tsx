@@ -19,7 +19,7 @@ function Header() {
 
         <div className={ toggle ? 'nav-menu show-menu' : 'nav-menu' }>
           <ul className="nav-list grid">
-            <NavItem href="#home" iconClass="uil uil-estate nav-icon">Ínicio</NavItem>
+            <NavItem href="#home" iconClass="uil uil-estate nav-icon">Início</NavItem>
             <NavItem href="#about" iconClass="uil uil-user nav-icon">Sobre</NavItem>
             <NavItem href="#skills" iconClass="uil uil-file-alt nav-icon">
               Habilidades
