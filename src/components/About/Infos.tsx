@@ -4,7 +4,7 @@ function Infos() {
       <div className="about-box">
         <i className="bx bx-award about-icon" />
         <h3 className="about-title">Experiência</h3>
-        <span className="about-subtitle">1 Ano Estudando</span>
+        <span className="about-subtitle">1 Ano de Experiência</span>
       </div>
 
       <div className="about-box">

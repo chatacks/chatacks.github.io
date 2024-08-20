@@ -2,7 +2,7 @@
 function AboutDescription() {
   return (
     <p className="about-description">
-      Tenho uma sólida experiência como autônomo em vendas, onde desenvolvi e aperfeiçoei minhas habilidades de comunicação, negociação e relacionamento com clientes. Recentemente, fiz uma transição de carreira para o desenvolvimento Web, mergulhando na tecnologia. Desde então, tenho me dedicado a expandir meus conhecimentos e habilidades, trabalhando em projetos práticos que demonstram minha capacidade de criar soluções eficazes e inovadoras.
+      Oi, eu sou o Thyago! Sou apaixonado por tecnologia e aprendizado contínuo. Minha jornada na programação começou de forma inesperada enquanto jogava um jogo chamado Tibia. Percebi que poderia automatizar algumas ações e acabei criando scripts utilizando a linguagem própria de um programa, o AutoHotkey. Desde então, me apaixonei pela possibilidade de criar e resolver problemas com código.
     </p>
   );
 }
