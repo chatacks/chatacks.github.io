@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Provider } from 'react-redux';
-import App from './App.tsx';
-import './index.css';
-import store from './redux/index.ts';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
+import { LanguageProvider } from "./i18n/LanguageContext";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root') as Element).render(
+ReactDOM.createRoot(document.getElementById("root") as Element).render(
   <React.StrictMode>
-    <Provider store={ store }>
-      <App />
-    </Provider>
+    <LanguageProvider>
+      <RouterProvider router={router} />
+    </LanguageProvider>
   </React.StrictMode>,
 );
